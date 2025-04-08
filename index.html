@@ -1,0 +1,46 @@
+<!DOCTYPE html> <!--always needed in HTML files-->
+<html> <!--always needed in HTML files-->
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <style> /* no idea how this works, I just know it's CSS */
+            body {
+                padding: 25px;
+                background-color: white;
+                color: black;
+                font-size: 25px;
+            }
+            .dark-mode {
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body> <!--always needed in HTML files-->
+
+        <!-- <a href= "URL-goes-here" > hyperlinked text goes here </a> -->
+        <title>Gabriel's Portfolio</title>
+        <h1>Gabriel Nogueira Fernandes</h1>
+        <p>This is the main page for my cool website</p>
+
+        <img src="https://img.freepik.com/premium-photo/cool-cat-wearing-pink-sunglasses-with-neon-light-background_514761-16858.jpg?semt=ais_hybrid" alt="Cool Cat" width="626" height="351">
+        <p>This is a cool cat image.</p>
+
+
+    
+        <button type="button">Projects</button>
+        <button type="button">Blog</button>
+
+        <br>
+        <br>
+        <br>
+
+        <!--no idea how this works, I just know it's Javascript-->
+        <button onclick="MyFunction()">Toggle Dark Mode</button>
+        <script>
+            function MyFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+    </body> <!--always needed in HTML files-->
+</html> <!--always needed in HTML files-->
